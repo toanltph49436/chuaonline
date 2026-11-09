@@ -1,0 +1,39 @@
+04 · HIỆU ỨNG → assets/themes/tinh-tam/fx_*.png
+=================================================
+
+Tất cả PNG nền trong suốt, căn giữa, mép dưới vật chạm đáy ảnh (trừ halo và petal căn tâm).
+Vẽ ở 3× rồi thu về kích thước dưới đây.
+
+fx_halo.png — 230×220 — VẦNG HÀO QUANG
+  Dùng ở đâu: phần mềm vẽ chồng kiểu "cộng sáng" (additive) sau tượng Phật, phóng to ×2.7, nhấp nháy khi chuông vang. Cũng dùng làm vầng sáng sau sư trụ trì.
+  Prompt: soft circular golden halo of light, radiant concentric rings, gentle rays, glowing warm gold #ffd98a fading to fully transparent edges,
+          no hard edge, centred, transparent background, no text
+  Lưu ý: KHÔNG có nền đen. Mép phải mờ dần về 0%. Tâm không quá trắng, vì cộng sáng sẽ bị cháy.
+
+fx_petal.png — 200×210 — CÁNH SEN RƠI
+  Dùng ở đâu: hàng chục cánh bay lơ lửng, xoay, thu nhỏ còn 15–35%. Tâm ảnh là điểm xoay.
+  Prompt: a single soft pink lotus petal, slightly curled, delicate veins, subtle gradient from white base to pink tip, gentle glow,
+          centred, transparent background, painterly, no text
+
+fx_incense.png — 190×220 — DÂNG HƯƠNG (quà nhỏ)
+  Dùng ở đâu: bay lên trên đầu nhân vật khi có quà nhỏ hoặc khi thắp hương trên web.
+  Prompt: three lit incense sticks standing in a small bronze incense holder, glowing red tips, thin curling smoke rising,
+          warm glow, centred, transparent background, painterly, no text
+
+fx_lotus.png — 230×220 — ĐÈN HOA SEN (quà vừa)
+  Prompt: a glowing lotus flower lantern, pink and white petals lit from within by a warm candle, soft golden light,
+          centred, transparent background, painterly, no text
+
+fx_bell.png — 286×220 — CHUÔNG ĐỒNG (quà lớn / thỉnh chuông)
+  Prompt: a traditional Vietnamese bronze temple bell (đại hồng chung) with ornate relief bands, hanging from a small red wooden frame,
+          golden shimmer and soft sound-wave rings around it, centred, transparent background, painterly, no text
+  Lưu ý: không có chữ khắc trên chuông (AI hay sinh chữ giả).
+
+Negative chung cho mục 04:
+  text, chinese characters, watermark, background, black background, hard edges, cartoon, emoji style, lowres
+
+Có thể làm thêm cho các gói sau (không bắt buộc):
+  fx_lamp.png    — đèn hoa đăng thả nước (cho theme Vu Lan / Rằm)
+  fx_rose.png    — bông hồng cài áo (theme Vu Lan)
+  fx_flag.png    — cờ Phật giáo nhỏ (theme Phật Đản)
+  Muốn dùng các file này thì báo lập trình viên, vì cần thêm vào theme.json và code hiệu ứng.

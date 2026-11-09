@@ -1,0 +1,19 @@
+06 · LOGO, ICON → assets/logo-512.png, assets/favicon.png (+ file vector .svg)
+==============================================================================
+
+Tên sản phẩm: "Chùa Online". Câu tagline gợi ý: "Một góc tĩnh lặng mỗi ngày".
+Cần: biểu tượng vuông (icon), logo ngang (icon + chữ), bản đơn sắc trắng (để đè lên video), file vector SVG gốc.
+
+Hướng thiết kế:
+  - Hình chính: một búp sen đang nở + vầng trăng tròn hoặc vầng hào quang phía sau. Đơn giản, đọc được ở 32×32 px.
+  - Màu: vàng kim #e2b04f trên nền đỏ son #7e1d12 hoặc nền tối #140b07.
+  - Chữ "Chùa Online": font serif có dấu tiếng Việt chuẩn (Noto Serif, Lora). Kiểm tra dấu "ù" hiển thị đẹp.
+  - KHÔNG dùng hình tượng Phật làm logo (dễ bị coi là bất kính khi in lên mọi thứ). Không dùng chữ Vạn. Không dùng mái chùa của chùa có thật.
+
+PROMPT (để lấy ý tưởng, logo cuối nên vẽ lại vector bằng tay):
+  Minimal flat vector logo icon, a blooming lotus bud in front of a full moon halo, elegant thin lines, aged gold on deep lacquer red,
+  balanced and symmetric, calm Buddhist feeling, simple enough to read at 32px, no text, no watermark
+
+NEGATIVE: buddha face, swastika, temple roof photo, gradient mess, 3d render, text, watermark
+
+Giao: icon 1024×1024 PNG, 512×512 PNG, favicon 64×64 PNG, logo ngang SVG + PNG 2000 px, bản trắng 1 màu SVG.

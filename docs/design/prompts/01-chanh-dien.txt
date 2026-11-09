@@ -1,0 +1,48 @@
+01 · CHÁNH ĐIỆN (ảnh nền chính) → assets/themes/tinh-tam/hall.jpg
+=====================================================================
+
+Kích thước: 1080×1920 (9:16). Gửi kèm bản gốc 2160×3840. Xuất JPG chất lượng 85, dưới 600 KB.
+Bố cục: BẮT BUỘC theo "Bản đồ màn hình" trong docs/design/README.md.
+
+PROMPT (tiếng Anh, dán vào công cụ tạo ảnh):
+---------------------------------------------
+Vertical 9:16 interior of a traditional Vietnamese Buddhist main hall (chánh điện) at night, seen from the entrance at chest height,
+one-point perspective centred, vanishing point at the middle of the frame.
+In the upper-middle: a serene golden Amitabha Buddha statue seated in meditation on a large lotus throne, centred horizontally,
+the statue's head at about 29% from the top of the frame, body down to about 42%, a faint golden glow behind it.
+Below the statue: a carved red-lacquer and gold altar table spanning the middle third of the width, front face at about 52%–60% from the top,
+with a bronze incense burner exactly in the centre of the table top (at about 52% height) with thin incense smoke,
+two tall candles, small vases of lotus flowers and fruit offerings, lotus-shaped lamps glowing softly on both sides.
+In front of the altar, a clear strip of floor where three monks could sit (leave it empty, no furniture there).
+Lower half: an EMPTY polished dark walnut wooden floor in strong perspective, from about 63% to 96% of the frame height,
+no cushions, no people, a subtle long red runner carpet down the central aisle, soft reflections of candlelight on the wood.
+Left and right edges: thick red lacquer pillars with carved golden dragons, kept in shadow in the middle band (33%–50% height),
+hanging silk lanterns (red, gold, a few lotus-pink and jade) near the top corners.
+Ceiling: dark carved wooden beams, low contrast, nothing busy in the top 17% of the frame.
+Couplet boards on the pillars are left blank with only gold border ornaments.
+Warm 2700K candlelight, gentle volumetric haze, calm and reverent mood.
+Vietnamese Buddhist temple illustration, semi-realistic painterly digital art, fine clean ink outlines, soft cel shading with warm candlelight,
+cozy night atmosphere, rich lacquer red, aged gold, dark walnut wood, soft lotus pink accents, gentle bloom on light sources,
+high detail but uncluttered, no text, no watermark
+
+NEGATIVE:
+text, chinese characters, calligraphy, cushions on floor, people, monks, crowd, cropped buddha, buddha off-centre,
+objects above buddha's head, modern lights, neon, plastic, money, donation box, qr code, watermark, logo, cartoon, chibi, horror,
+fisheye distortion, tilted horizon, blurry, lowres
+
+GHI CHÚ CHO DESIGNER:
+- AI hầu như không đặt đúng tọa độ. Cách làm hiệu quả: tạo 10–20 bản → chọn bản có không khí đẹp nhất → dựng lại bố cục trong Photoshop theo lưới:
+    • tâm tượng Phật (vị trí hào quang): x=540, y=560
+    • miệng lư hương: x=540, y≈1000
+    • mặt trước bàn thờ: y≈990–1160, khoảng x 300–780
+    • 3 chỗ sư ngồi (chân bồ đoàn chạm sàn): (300,1085) (540,1100) (780,1085)
+    • sàn trống: mép trên y=1215 (x 250→830), mép dưới y=1845 (x 110→970)
+  Đặt file lưới mẫu: chụp overlay khi chạy với theme classic rồi đè ảnh mới lên để canh.
+- Sàn KHÔNG có bồ đoàn. Nếu AI tự vẽ bồ đoàn thì xóa bằng inpainting.
+- Vùng hai bên x 24–314 / 766–1056, y 630–960 sẽ bị hai thẻ chữ che: để cột/tường tối, không đặt chi tiết đẹp ở đó.
+- Kiểm tra: thu ảnh xuống 360×640 (cỡ điện thoại) vẫn phải nhận ra tượng Phật, bàn thờ, sàn.
+
+BIẾN THỂ NÊN LÀM THÊM (để bán theme khác nhau, giữ nguyên bố cục):
+  a) "Bình minh": ánh sáng sớm xanh lam lẫn vàng qua cửa sổ, ít đèn lồng.
+  b) "Chùa núi": tường đá, cửa mở ra rặng núi sương mờ phía sau tượng (vẫn giữ tượng ở giữa).
+  c) "Sen hồng": nhiều chậu sen và đèn hoa sen hơn, tông hồng dịu.

@@ -1,0 +1,9 @@
+node_modules/
+live/tts/
+live/data/
+*.log
+.env
+.env.*
+*.pem
+.DS_Store
+Thumbs.db

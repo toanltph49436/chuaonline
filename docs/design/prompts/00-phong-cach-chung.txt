@@ -1,0 +1,40 @@
+PHONG CÁCH CHUNG — đọc trước mọi prompt khác
+=================================================
+
+Mục tiêu cảm xúc: tĩnh lặng, ấm áp, trang nghiêm, "muốn ngồi lại thêm một chút". Không lòe loẹt kiểu game, không chibi, không kinh dị.
+Người xem chủ yếu thấy trên điện thoại (TikTok LIVE, màn dọc 9:16), nên hình phải rõ khi thu nhỏ.
+
+Từ khóa phong cách (dán vào cuối mọi prompt ảnh):
+  Vietnamese Buddhist temple illustration, semi-realistic painterly digital art, fine clean ink outlines,
+  soft cel shading with warm candlelight, cozy night atmosphere, rich lacquer red, aged gold, dark walnut wood,
+  soft lotus pink accents, gentle bloom on light sources, high detail but uncluttered, calm and reverent mood,
+  consistent lighting from the altar (front-top), no text, no watermark
+
+Bảng màu (giữ để chữ của phần mềm đọc rõ trên nền):
+  Nền tối chủ đạo    #0c0705 – #2a1309  (gỗ, bóng tối)
+  Sơn son            #8a2a1e / #7e1d12
+  Vàng kim           #e2b04f / chói #ffd98a
+  Hồng sen           #f2a7b5
+  Áo lam (cư sĩ)     #8a96a8 – #6f7b8f  (xám xanh)
+  Áo nâu             #6b4a33
+  Y sư (nâu/vàng)    #8a5a2b / #c98a2e
+
+Ánh sáng: đèn nến và đèn lồng ấm (2700K). Nguồn sáng chính ở bàn thờ, phía trước-trên. Mọi nhân vật được chiếu từ phía bàn thờ, nghĩa là từ phía trước mặt họ. Vì nhìn từ sau lưng nên viền sáng (rim light) rơi ở mép vai và đầu.
+
+Góc nhìn: máy quay đứng ở cửa chánh điện, cao ngang ngực người đứng, nhìn thẳng vào tượng Phật. Phối cảnh một điểm tụ ở giữa khung (x=540), điểm tụ khoảng y≈620.
+
+Nội dung bắt buộc tôn trọng:
+  - Tượng Phật: A Di Đà hoặc Thích Ca, ngồi kiết già trên tòa sen, tay thiền định ấn. Gương mặt hiền từ, tỷ lệ chuẩn mực. Không cắt xén tượng, không đặt vật gì phía trên đầu tượng. Không dùng phong cách hoạt hình hay chibi cho tượng.
+  - Không có chữ Hán/Nôm do AI tự sinh. Câu đối và hoành phi để trống hoặc chỉ có hoa văn.
+  - Không mô phỏng một ngôi chùa có thật (Bái Đính, Linh Ứng, Tam Chúc, Trấn Quốc…) hay tượng đặc trưng của họ.
+  - Không có biểu tượng tôn giáo khác, không có chữ Vạn (卍) kiểu quay ngược dễ gây hiểu nhầm. Nếu có chữ Vạn thì phải đúng chiều Phật giáo (卍) và đặt trang trọng. An toàn nhất là không đặt.
+  - Không có tiền, hòm công đức hay mã QR trong tranh.
+
+Negative prompt dùng chung:
+  text, letters, chinese characters, calligraphy, watermark, logo, signature, chibi, anime big eyes, cartoon mascot,
+  horror, blood, neon, cyberpunk, modern furniture, plastic, money, donation box, qr code, cropped buddha,
+  extra fingers, deformed hands, distorted face, blurry, lowres, jpeg artifacts
+
+Công cụ gợi ý (chưa kiểm tra điều khoản; designer phải tự đọc và xác nhận gói đang dùng cho phép thương mại):
+  Midjourney (gói trả phí), Adobe Firefly, Leonardo (gói trả phí), Stable Diffusion/Flux tự chạy (theo license model).
+  Ghi lại tên công cụ, gói, ngày tạo và prompt vào docs/design/nhat-ky-tao-anh.md.

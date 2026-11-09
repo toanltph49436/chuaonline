@@ -1,0 +1,36 @@
+09 · THEME MÙA LỄ (gói Pro, bán thêm)
+=======================================
+
+Mỗi theme là một thư mục assets/themes/<id>/ có theme.json riêng (copy từ tinh-tam, đổi "id", "name", "tier": "pro", "fallback": "tinh-tam").
+Thường chỉ cần vẽ lại hall.jpg + 1–2 hiệu ứng. Nhân vật dùng chung với Tịnh Tâm qua fallback.
+Bố cục hall.jpg GIỮ NGUYÊN bản đồ trong docs/design/README.md.
+
+Lịch gợi ý (âm lịch → ra mắt trước 2 tuần):
+  - Rằm tháng Giêng · Tết          (id: tet)       — tháng 1–2 dương
+  - Phật Đản                        (id: phat-dan)  — rằm tháng 4 âm
+  - Vu Lan báo hiếu                 (id: vu-lan)    — rằm tháng 7 âm
+  - Thành đạo / cuối năm            (id: thanh-dao) — 8/12 âm
+
+PROMPT bổ sung (thêm vào PROMPT gốc trong 01-chanh-dien.txt):
+
+tet — Tết
+  …decorated for Lunar New Year: branches of yellow apricot blossoms (hoa mai) and pink peach blossoms in tall vases beside the altar,
+  red lanterns with gold tassels, trays of five fruits on the altar, a few red envelopes hanging on blossom branches,
+  festive but still calm, warm red and gold…
+  Hiệu ứng thêm: fx_petal.png → cánh mai vàng.
+
+phat-dan — Phật Đản
+  …decorated for Vesak: rows of lotus-shaped lanterns in soft pink, white and gold, small five-colour Buddhist flags strung across the ceiling,
+  a small baby Buddha statue standing in a basin on a side table, many lotus flowers, bright joyful but reverent light…
+  Lưu ý: cờ Phật giáo đúng thứ tự màu xanh – vàng – đỏ – trắng – cam. Không sáng tạo màu khác.
+
+vu-lan — Vu Lan
+  …decorated for Vu Lan (Ullambana), the filial piety festival: soft red and white roses in vases, floating lotus lamps on a small water basin
+  at the front of the altar, gentle evening glow, tender and nostalgic mood, warm pink and red accents…
+  Hiệu ứng thêm: fx_rose.png (bông hồng đỏ/trắng cài áo). Trong theme này, bình luận "mẹ"/"cha" có thể đổi màu hồng cài áo (báo lập trình viên).
+
+thanh-dao — Thành đạo
+  …quiet winter night, a Bodhi tree painted on the back wall behind the statue, cool blue moonlight from high windows mixed with warm candles,
+  sparse decorations, deep meditative mood…
+
+Giá trị thương mại: bán lẻ từng theme hoặc tặng kèm gói Pro năm. Ra mắt đúng mùa lễ là lúc người xem đông nhất.

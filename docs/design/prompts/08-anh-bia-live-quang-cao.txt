@@ -1,0 +1,28 @@
+08 · ẢNH BÌA LIVE + ẢNH/VIDEO QUẢNG CÁO
+=========================================
+
+A) Ảnh bìa phiên LIVE trên TikTok (hiện ở tab LIVE và trang cá nhân)
+   Kích thước: ảnh dọc, giữ vùng an toàn ở giữa vì TikTok cắt theo từng màn hình. Làm bản 1080×1920 và một bản vuông 1080×1080.
+   Kiểm tra lại kích thước TikTok yêu cầu tại thời điểm làm.
+   Nội dung: chánh điện mới, ánh nến, khoảng 10–20 nhân vật ngồi, tượng Phật sáng. Góc trên có chữ lớn "CÙNG TỤNG KINH" hoặc "NIỆM PHẬT 108 BIẾN".
+   Không viết "cúng dường", "công đức", "tặng quà để…" trên ảnh bìa. Không đưa mã QR hay số tài khoản (TikTok cấm và dễ bị coi là lừa đảo).
+
+   PROMPT (phần hình):
+     Vertical 9:16 cozy Vietnamese Buddhist temple hall at night, golden Buddha statue on lotus throne glowing,
+     about fifteen lay Buddhists in grey-blue and brown robes sitting on round cushions seen from behind, lotus petals floating in the air,
+     warm candlelight, gentle haze, painterly semi-realistic illustration, fine ink outlines, top 20% kept darker and simple for a title,
+     no text, no watermark
+
+B) Ảnh quảng cáo cho STREAMER (bán bộ công cụ)
+   Kích thước: 1080×1350 (bài đăng Facebook/Instagram) và 1200×628 (link).
+   Thông điệp: "Biến kênh TikTok thành chánh điện thư giãn trong 15 phút". Ba gạch đầu dòng: "Người xem bình luận là vào ngồi",
+   "Niệm chung 108 biến cả phòng cùng góp", "An toàn chính sách: không bot, không hứa công đức".
+   Hình: điện thoại dọc hiển thị overlay + tay cầm, nền tối ấm. Có thể chụp màn hình thật overlay đặt vào mockup điện thoại.
+
+C) Video ngắn 15–30 giây giới thiệu (TikTok/Reels) — kịch bản cho designer/editor
+   0–3 s   Màn hình đen → tiếng chuông → chánh điện sáng dần (zoom chậm vào tượng Phật).
+   3–8 s   Bình luận "Nam mô A Di Đà Phật" bay lên → một nhân vật đi vào, ngồi xuống bồ đoàn, tên hiện trên đầu.
+   8–14 s  Thanh "Niệm chung" chạy từ 100 → 108 → chuông lớn, cánh sen rơi khắp màn hình.
+   14–20 s Băng "Hồi hướng cho các bạn" hiện tên người xem.
+   20–30 s Logo + "Chùa Online · Một góc tĩnh lặng mỗi ngày".
+   Quay bằng cách chạy overlay thật (Diễn tập → Bot tương tác) và ghi màn hình bằng OBS. Không dùng bot trong LIVE thật.

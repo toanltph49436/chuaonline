@@ -1,0 +1,40 @@
+{
+  "id": "tinh-tam",
+  "name": "Tịnh Tâm (đồ họa mới, đang chờ designer)",
+  "tier": "free",
+  "commercialReady": false,
+  "license": "Đồ họa đặt làm riêng cho Chùa Online. Bản quyền thuộc chủ sở hữu dự án, không phát hành theo MIT. Đổi commercialReady thành true khi đã nhận đủ file và hợp đồng chuyển giao quyền từ designer.",
+  "fallback": "classic",
+
+  "hall": "hall.jpg",
+  "floor": { "yTop": 1215, "yBot": 1845, "halfTop": 290, "halfBot": 430 },
+  "altar": { "haloX": 540, "haloY": 560, "haloScale": 2.7, "smokeX": 540, "smokeY": 1000, "glowTop": 300, "glowHeight": 800 },
+  "teachers": [
+    { "name": "Thầy Minh Đạo", "skin": "monk", "x": 300, "y": 1085, "s": 0.36 },
+    { "name": "Sư Trụ Trì", "skin": "monk", "x": 540, "y": 1100, "s": 0.40, "master": true },
+    { "name": "Thầy Tâm Từ", "skin": "monk", "x": 780, "y": 1085, "s": 0.36 }
+  ],
+
+  "characters": {
+    "seatedHeight": 260,
+    "seated": {
+      "man": "c_man.png", "woman": "c_woman.png", "granny": "c_granny.png",
+      "monk": "c_monk.png", "nun": "c_nun.png", "child": "c_child.png"
+    },
+    "walk": {
+      "man":    { "src": "anim_man.png",    "fw": 212, "fh": 300, "seatH": 215 },
+      "woman":  { "src": "anim_woman.png",  "fw": 212, "fh": 300, "seatH": 215 },
+      "granny": { "src": "anim_granny.png", "fw": 212, "fh": 300, "seatH": 215 },
+      "monk":   { "src": "anim_monk.png",   "fw": 212, "fh": 300, "seatH": 215 },
+      "nun":    { "src": "anim_nun.png",    "fw": 212, "fh": 300, "seatH": 215 },
+      "child":  { "src": "anim_child.png",  "fw": 212, "fh": 300, "seatH": 190 }
+    }
+  },
+
+  "fx": {
+    "halo": "fx_halo.png", "petal": "fx_petal.png", "incense": "fx_incense.png",
+    "lotus": "fx_lotus.png", "bell": "fx_bell.png"
+  },
+
+  "colors": { "gold": "#e2b04f", "gold2": "#ffd98a", "red": "#7e1d12" }
+}

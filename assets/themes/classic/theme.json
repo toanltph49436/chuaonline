@@ -1,0 +1,59 @@
+{
+  "id": "classic",
+  "name": "Cổ điển (tài nguyên gốc)",
+  "tier": "free",
+  "commercialReady": false,
+  "license": "Tài nguyên đi kèm mã nguồn gốc Chánh Điện Online (Kent Juno, MIT). Ảnh tạo bằng Google Flow, nhạc tạo bằng Gemini. Chỉ dùng để phát triển và thử nghiệm; thay bằng theme có quyền thương mại trước khi bán.",
+
+  "hall": "hall.jpg",
+  "floor": { "yTop": 1215, "yBot": 1845, "halfTop": 290, "halfBot": 430 },
+  "seatsNote": "16 bồ đoàn vẽ sẵn trong hall.jpg (x = tâm, y = đáy bồ đoàn), theo thứ tự ưu tiên. Dùng khi số người ≤ 16; seatsExtra (8 chỗ chen giữa các bồ đoàn, cùng phối cảnh) mở thêm đến 24; đông hơn nữa thì chuyển sang lưới floor. perspective: tỉ lệ nhân vật theo y (nội suy tuyến tính).",
+  "seats": [
+    { "x": 250, "y": 1779 }, { "x": 832, "y": 1779 },
+    { "x": 315, "y": 1583 }, { "x": 765, "y": 1583 },
+    { "x": 369, "y": 1441 }, { "x": 713, "y": 1441 },
+    { "x": 403, "y": 1344 }, { "x": 679, "y": 1344 },
+    { "x": 428, "y": 1273 }, { "x": 652, "y": 1273 },
+    { "x": 116, "y": 1441 }, { "x": 964, "y": 1441 },
+    { "x": 194, "y": 1344 }, { "x": 886, "y": 1344 },
+    { "x": 260, "y": 1273 }, { "x": 821, "y": 1273 }
+  ],
+  "seatsExtra": [
+    { "x": 242, "y": 1441 }, { "x": 838, "y": 1441 },
+    { "x": 80, "y": 1583 }, { "x": 1000, "y": 1583 },
+    { "x": 298, "y": 1344 }, { "x": 782, "y": 1344 },
+    { "x": 344, "y": 1273 }, { "x": 736, "y": 1273 }
+  ],
+  "perspective": { "y0": 1273, "s0": 0.425, "y1": 1779, "s1": 0.99 },
+  "altar": { "haloX": 540, "haloY": 560, "haloScale": 2.7, "smokeX": 540, "smokeY": 1000, "glowTop": 300, "glowHeight": 800 },
+  "teachers": [
+    { "name": "Thầy Minh Đạo", "skin": "monk", "x": 300, "y": 1085, "s": 0.36 },
+    { "name": "Sư Trụ Trì", "skin": "monk", "x": 540, "y": 1100, "s": 0.40, "master": true },
+    { "name": "Thầy Tâm Từ", "skin": "monk", "x": 780, "y": 1085, "s": 0.36 }
+  ],
+
+  "characters": {
+    "seatedHeight": 260,
+    "seated": {
+      "man": "c_man.png", "woman": "c_woman.png", "granny": "c_granny.png",
+      "monk": "c_monk.png", "nun": "c_nun.png", "child": "c_child.png"
+    },
+    "walk": {
+      "man":    { "src": "anim_man.png",    "fw": 212, "fh": 300, "seatH": 210 },
+      "woman":  { "src": "anim_woman.png",  "fw": 212, "fh": 300, "seatH": 220 },
+      "granny": { "src": "anim_granny.png", "fw": 195, "fh": 300, "seatH": 222 }
+    }
+  },
+
+  "fx": {
+    "halo": "fx_halo.png", "petal": "fx_petal.png", "incense": "fx_incense.png",
+    "lotus": "fx_lotus.png", "bell": "fx_bell.png"
+  },
+
+  "music": [
+    { "src": "music/music1.mp3", "name": "Trăng trên rừng trúc" },
+    { "src": "music/music2.mp3", "name": "Hơi thở ban mai" }
+  ],
+
+  "colors": { "gold": "#e2b04f", "gold2": "#ffd98a", "red": "#7e1d12" }
+}

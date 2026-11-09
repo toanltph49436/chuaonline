@@ -1,0 +1,43 @@
+03 · HOẠT ẢNH ĐI VÀO RỒI NGỒI XUỐNG → assets/themes/tinh-tam/anim_*.png
+==========================================================================
+
+6 file: anim_man.png, anim_woman.png, anim_granny.png, anim_monk.png, anim_nun.png, anim_child.png
+(Bản cũ chỉ có man/woman/granny. Thiếu file nào thì nhân vật đó hiện ra tại chỗ, không đi vào.)
+
+Định dạng dải (sprite strip) — BẮT BUỘC đúng từng pixel:
+  - Toàn ảnh 1696×300 px, PNG trong suốt.
+  - 8 khung nằm ngang, mỗi khung 212×300 px, không có khoảng hở giữa các khung.
+  - Khung 0–3: chu kỳ đi bộ nhìn TỪ SAU LƯNG (đi xa khỏi người xem, về phía tượng Phật). Không có bồ đoàn.
+       0 = chân trái bước tới · 1 = hai chân ngang nhau · 2 = chân phải bước tới · 3 = hai chân ngang nhau
+       (phần mềm lặp 0→1→2→3, khoảng 6 khung/giây)
+  - Khung 4–7: ngồi xuống bồ đoàn (bồ đoàn xuất hiện từ khung 4, cùng vị trí và cùng cỡ ở cả 4 khung):
+       4 = đứng trên bồ đoàn · 5 = khuỵu gối, người nghiêng tới · 6 = quỳ, tay chống · 7 = ngồi yên, cầm kinh
+       Khung 7 phải trông GIỐNG ảnh tĩnh c_*.png tương ứng ở mục 02.
+  - Đường đáy: bàn chân (khung 0–3) và mép dưới bồ đoàn (khung 4–7) chạm đáy khung (y = 299).
+  - Nhân vật căn giữa trong từng khung (x ≈ 106).
+  - Chiều cao nhìn thấy của khung 7 (từ đỉnh đầu đến đáy bồ đoàn) ≈ 215 px (chú tiểu ≈ 190 px).
+    Nếu khác thì báo lập trình viên sửa "seatH" trong theme.json.
+  - Phần mềm tự lật ngang khi nhân vật bước sang trái, nên chỉ cần vẽ một hướng.
+
+PROMPT (dùng để tạo bảng thiết kế nhân vật, KHÔNG kỳ vọng AI cho ra dải đúng chuẩn):
+-----------------------------------------------------------------------------------
+Character turnaround and animation reference sheet, [NHÂN VẬT — lấy từ file 02], back view only,
+row of 8 poses left to right: four walking poses walking away from the viewer (left foot forward, passing, right foot forward, passing),
+then standing on a round brown meditation cushion, bending knees, kneeling down with one hand on the knee, finally seated cross-legged holding a small sutra book,
+same character, same scale, same lighting in every pose, evenly spaced on a plain transparent background,
+Vietnamese Buddhist temple illustration, semi-realistic painterly digital art, fine clean ink outlines, soft cel shading, no text
+
+NEGATIVE:
+front view, face toward camera, different outfits between poses, inconsistent scale, background, floor shadow, text, watermark
+
+CÁCH LÀM ĐỀ XUẤT (thực tế nhất):
+  1. Dùng AI tạo bảng tham chiếu 8 tư thế như trên để chốt dáng và trang phục.
+  2. Designer vẽ lại hoặc chỉnh sửa từng khung trong Photoshop, Aseprite hoặc Krita, trên một lưới 8×(212×300).
+     Hướng khác: dựng nhân vật dạng cắt mảnh (cut-out) trong Spine/Live2D rồi xuất 8 khung.
+  3. Chồng khung 7 lên ảnh tĩnh c_*.png để kiểm tra trùng khớp.
+  4. Xem thử trong overlay: Bảng điều khiển → Diễn tập → Gửi bình luận với tên mới để thấy một người đi vào.
+
+Mẹo để không bị "giật":
+  - Giữ đầu ở cùng độ cao trong khung 0–3 (chỉ nhấp nhô 2–4 px).
+  - Ở khung 4–7, bồ đoàn không được nhích dù 1 px.
+  - Khung 5 và 6 là quan trọng nhất cho cảm giác "ngồi xuống thật". Nên có một chút nghiêng người về phía trước.

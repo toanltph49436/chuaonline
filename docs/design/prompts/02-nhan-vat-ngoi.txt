@@ -1,0 +1,41 @@
+02 · NHÂN VẬT NGỒI (ảnh tĩnh) → assets/themes/tinh-tam/c_*.png
+=================================================================
+
+6 file: c_man.png, c_woman.png, c_granny.png, c_monk.png, c_nun.png, c_child.png
+Kích thước xuất: 196×260 (c_child: 160×230). Vẽ ở 4× (784×1040) rồi thu nhỏ. Gửi cả bản 4×.
+PNG nền trong suốt, viền ngoài sạch (không viền trắng/halo quanh nhân vật).
+
+Quy ước khung (BẮT BUỘC, phần mềm căn theo đây):
+  - Nhìn TỪ SAU LƯNG, hơi chếch 3/4 từ trên xuống (nhân vật quay mặt về tượng Phật, người xem thấy lưng).
+  - Nhân vật ngồi xếp bằng (hoặc quỳ ngồi) trên một bồ đoàn tròn màu nâu gụ.
+  - Mép dưới bồ đoàn chạm đáy ảnh. Nhân vật căn giữa theo chiều ngang.
+  - Đỉnh đầu cách mép trên khoảng 4–8 px (ở cỡ 196×260).
+  - Tay cầm cuốn kinh nhỏ mở trước ngực (thấy một phần qua vai) hoặc chắp tay.
+  - Cùng một kích thước bồ đoàn cho cả 6 nhân vật (rộng ≈ 170 px ở cỡ xuất). Chú tiểu dùng bồ đoàn nhỏ hơn (≈ 140 px).
+  - Ánh sáng: viền sáng ấm ở mép vai và đầu (nguồn sáng ở phía trước mặt nhân vật, tức là phía tượng Phật).
+
+PROMPT GỐC (thay [NHÂN VẬT] bằng từng dòng bên dưới):
+-----------------------------------------------------
+Single character sprite, back view from slightly above, [NHÂN VẬT], sitting cross-legged on a round dark brown meditation cushion,
+holding a small open sutra book in front of the chest, calm posture, facing away from the viewer toward an altar,
+warm rim light on shoulders and head from the front, full body including the whole cushion, centred, isolated on plain transparent background,
+Vietnamese Buddhist temple illustration, semi-realistic painterly digital art, fine clean ink outlines, soft cel shading,
+no text, no watermark
+
+[NHÂN VẬT]:
+  c_man    : a young Vietnamese man with short black hair wearing a loose grey-blue lay Buddhist robe (áo tràng lam), simple trousers, barefoot
+  c_woman  : a young Vietnamese woman with long black hair tied in a low bun, wearing a grey-blue lay Buddhist robe (áo tràng lam)
+  c_granny : an elderly Vietnamese woman with grey hair in a bun, wearing a plain brown robe (áo nâu) and a brown head scarf, slightly hunched
+  c_monk   : a Vietnamese Buddhist monk with a shaved head wearing a brown robe (áo nhật bình) with a saffron-yellow outer sash over one shoulder
+  c_nun    : a Vietnamese Buddhist nun with a shaved head wearing a grey-brown robe and a soft brown cap
+  c_child  : a small Vietnamese novice monk boy (chú tiểu) about 7 years old, shaved head with a small tuft of hair at the front, grey robe
+
+NEGATIVE:
+front view, face visible toward camera, standing, background, floor, shadow on ground, text, watermark, extra limbs, deformed hands,
+chibi, anime, big head, cropped cushion, cropped head, multiple characters
+
+GHI CHÚ:
+- AI dễ cho ra mặt quay vào máy. Nếu vậy thì thêm "seen from behind, back of head visible, face not visible" và tăng trọng số.
+- Để 6 nhân vật trông cùng một bộ, nên tạo một "sheet" 6 nhân vật trong cùng một ảnh, cùng seed, rồi cắt ra.
+- Nhân vật "cao tăng" (master) trong phần mềm dùng chung ảnh c_monk và được thêm vầng sáng, nên không cần file riêng.
+- Kiểm tra: thu về 60% (cỡ hàng sau) vẫn phải phân biệt được 6 nhân vật qua màu áo và dáng đầu.

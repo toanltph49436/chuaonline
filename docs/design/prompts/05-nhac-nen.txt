@@ -1,0 +1,39 @@
+05 · NHẠC NỀN → assets/themes/tinh-tam/music/*.mp3
+====================================================
+
+Cần 3–4 bài, mỗi bài 3–5 phút, MP3 192 kbps, chuẩn hóa âm lượng khoảng -16 LUFS.
+Phần mềm phát nối tiếp và tự giảm âm khi có giọng đọc, nên nhạc phải "lùi về sau": không có giai điệu chói, không có lời.
+Đầu và cuối bài có fade 3–4 giây (phần mềm crossfade 4 giây).
+
+Sau khi giao, thêm vào assets/themes/tinh-tam/theme.json:
+  "music": [ { "src": "music/01-ten-bai.mp3", "name": "Tên hiển thị" }, … ]
+
+QUYỀN SỬ DỤNG — BẮT BUỘC:
+  - Phát trên TikTok LIVE có thu nhập nên cần quyền dùng thương mại + phát trực tuyến.
+  - Nếu thuê nhạc sĩ: hợp đồng chuyển giao quyền tài sản (bao gồm quyền phát sóng trực tuyến), cam kết không đăng ký bài lên Content ID hay hệ thống quét bản quyền.
+  - Nếu dùng AI nhạc (Suno, Udio…): chỉ dùng gói trả phí cho phép thương mại. Lưu lại link bài, ngày tạo, prompt.
+  - Không dùng bài tụng kinh có giọng của thầy thật hoặc bản thu của chùa thật.
+
+PROMPT (cho AI nhạc hoặc brief cho nhạc sĩ):
+------------------------------------------
+Bài 1 — "Trăng Trên Rừng Trúc"
+  Calm Vietnamese Buddhist meditation music, instrumental, no vocals, slow 60 BPM, đàn tranh (zither) soft plucks,
+  bamboo flute (sáo trúc) long gentle phrases, warm low drone, occasional singing bowl, light wooden fish (mõ) very soft every 4 bars,
+  night temple ambience, peaceful, loopable, gentle fade in and fade out
+
+Bài 2 — "Hơi Thở Ban Mai"
+  Ambient meditation, instrumental, no vocals, 55 BPM, warm pad, đàn bầu (monochord) slow bends, distant temple bell every 30 seconds,
+  birds at dawn very low in the mix, airy, hopeful, loopable
+
+Bài 3 — "Sen Nở"
+  Instrumental Asian meditation, no vocals, 64 BPM, đàn nguyệt soft arpeggio, cello drone, wind chimes, light rain texture,
+  tender and warm, loopable
+
+Bài 4 (tùy chọn) — "Niệm"
+  Instrumental, no lyrics, soft male choir humming "ah" (no words), deep drone, slow singing bowls, very minimal, 50 BPM, loopable
+
+Negative / tránh: lời hát, rap, beat EDM, trống mạnh, tiếng chuông điện thoại, âm thanh giật mình, nhạc có giai điệu nổi tiếng.
+
+Hiệu ứng âm thanh (tùy chọn, nếu muốn thay tiếng chuông/mõ tổng hợp bằng tiếng thật):
+  sfx/bell.mp3 (chuông lớn 6–8 s), sfx/mo.mp3 (một tiếng mõ khô 0.2 s), sfx/bowl.mp3 (chuông xoay 5 s).
+  Hiện phần mềm tự tổng hợp các tiếng này. Muốn dùng file thật thì báo lập trình viên.

@@ -1,0 +1,17 @@
+07 · ẢNH CHIA SẺ LINK (Open Graph) → assets/og.jpg
+====================================================
+
+Kích thước 1200×630, JPG, dưới 300 KB. Hiện khi gửi link trang web qua Zalo, Messenger hay Facebook.
+Sau khi có file, sửa dòng og:image trong index.html thành /assets/og.jpg.
+
+Bố cục:
+  - Bên trái 55%: cắt ngang từ ảnh chánh điện mới (tượng Phật + bàn thờ + vài nhân vật ngồi), tối dần sang phải.
+  - Bên phải 45%: logo "Chùa Online" + dòng chữ lớn "Một góc tĩnh lặng mỗi ngày" + dòng nhỏ "Thắp hương · Niệm Phật 108 biến · Nhạc thiền · Miễn phí".
+  - Chữ do designer đặt bằng tay (không để AI sinh chữ).
+
+PROMPT (chỉ cho phần hình, chữ đặt sau):
+  Wide 1200x630 banner, left side shows a warm candle-lit Vietnamese Buddhist temple hall with a golden Buddha statue on a lotus throne,
+  a few lay Buddhists in grey-blue robes sitting on cushions seen from behind, right side fades into deep dark red-brown empty space for text,
+  painterly semi-realistic illustration, fine ink outlines, warm gold light, calm, no text, no watermark
+
+Kiểm tra: xem thử ở cỡ 300×157 (cỡ khung chat) vẫn đọc được chữ chính.
